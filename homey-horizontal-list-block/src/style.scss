@@ -1,0 +1,27 @@
+.homey-horizontal-list-block {
+	display: flex;
+	flex-wrap: wrap;
+	padding: 20px 0px;
+	margin: 0px;
+}
+
+.homey-horizontal-list-block li {
+	display: block;
+	list-style-type: none;
+	border-right: 1px solid #000000;
+	padding: 0px 30px;
+}
+
+.homey-horizontal-list-block li:first-child {
+	display: block;
+	list-style-type: none;
+	border-right: 1px solid #000000;
+	padding: 0px 30px 0px 0px;
+}
+
+.homey-horizontal-list-block li:last-child {
+	display: block;
+	list-style-type: none;
+	border: none;
+	padding: 0px 30px;
+}

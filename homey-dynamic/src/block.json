@@ -1,0 +1,72 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "create-block/homey-dynamic",
+	"version": "0.1.0",
+	"title": "Homey Dynamic",
+	"category": "widgets",
+	"description": "Adds an accordion element to your page or post.",
+	"example": {},
+	"supports": {
+		"html": false
+	},
+	"textdomain": "homey",
+	"editorScript": "file:./index.js",
+	"style": "file:./style-index.css",
+	"render": "file:./render.php",
+	"viewScript": "file:./view.js",
+	"attributes": {
+		"backgroundColor" : {
+			"type": "string",
+			"default": "#D58A51"
+		},
+		"textColor" : {
+			"type": "string",
+			"default": "#313131"
+		},
+		"titleOne" : {
+			"type": "string",
+			"default": "Input title here"
+		},
+		"titleTwo" : {
+			"type": "string",
+			"default": "Input title here"
+		},
+		"titleThree" : {
+			"type": "string",
+			"default": "Input title here"
+		},
+		"titleFour" : {
+			"type": "string",
+			"default": "Input title here"
+		},
+		"titleFive" : {
+			"type": "string",
+			"default": "Input title here"
+		},
+		"contentOne" : {
+			"type" : "string",
+			"default" : "This content is initially hidden. Typ to change it."
+		},
+		"contentTwo" : {
+			"type" : "string",
+			"default" : "This content is initially hidden. Typ to change it."
+		},
+		"contentThree" : {
+			"type" : "string",
+			"default" : "This content is initially hidden. Typ to change it."
+		},
+		"contentFour" : {
+			"type" : "string",
+			"default" : "This content is initially hidden. Typ to change it."
+		},
+		"contentFive" : {
+			"type" : "string",
+			"default" : "This content is initially hidden. Typ to change it."
+		},
+		"amount" : {
+			"type": "integer",
+			"default": 2
+		}
+	}
+}

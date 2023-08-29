@@ -1,0 +1,52 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "create-block/homey-horizontal-list-block",
+	"version": "0.1.0",
+	"title": "Homey Horizontal List Block",
+	"category": "widgets",
+	"description": "Adds a horizontal list to your page or post.",
+	"example": {},
+	"supports": {
+		"html": false
+	},
+	"textdomain": "homey",
+	"editorScript": "file:./index.js",
+	"style": "file:./style-index.css",
+	"attributes": {
+		"contentFirst": {
+			"type": "string",
+			"default": "",
+			"selector": "li"
+		},
+		"contentSecond": {
+			"type": "string",
+			"default": "",
+			"selector": "li"
+		},
+		"contentThird": {
+			"type": "string",
+			"default": "",
+			"selector": "li"
+		},
+		"contentFourth": {
+			"type": "string",
+			"default": "",
+			"selector": "li"
+		},
+		"contentFifth": {
+			"type": "string",
+			"default": "",
+			"selector": "li"
+		},
+		"contentSixth": {
+			"type": "string",
+			"default": "",
+			"selector": "li"
+		},
+		"amount" : {
+			"type": "integer",
+			"default": 3
+		}
+	}
+}

@@ -1,0 +1,166 @@
+{
+    "$schema": "https://schemas.wp.org/trunk/theme.json",
+    "version": 2,
+    "settings": {
+        "border": {
+            "radius": true,
+            "color": true,
+            "style": false,
+            "width": true
+        },
+        "color": {
+            "custom": true,
+            "customDuotone": true,
+            "customGradient": true,
+            "duotone": [],
+            "gradients": [],
+            "link": true,
+            "palette": [
+                {
+                    "slug": "homey-red",
+                    "color": "#d58a51",
+                    "name": "Red"
+                },
+                {
+                    "slug": "homey-grey",
+                    "color": "#ECECEC",
+                    "name": "Grey"
+                },
+                {
+                    "slug": "homey-black",
+                    "color": "#313131",
+                    "name": "Black"
+                }
+            ],
+            "text": true,
+            "background": true,
+            "defaultGradients": true,
+            "defaultPalette": false
+        },
+        "custom": {},
+        "layout": {
+            "allowEditing": false,
+            "contentSize": "1200px",
+            "wideSize": "100vw"
+        },
+        "spacing": {
+            "margin": true,
+            "padding": true,
+            "blockGap": true,
+            "units": [ "px", "vh", "vw", "%" ]
+        },
+        "typography": {
+            "customFontSize": true,
+            "lineHeight": false,
+            "dropCap": true,
+            "fluid": false,
+            "fontStyle": true,
+            "fontWeight": true,
+            "letterSpacing": true,
+            "fontSizes": [
+                {
+                    "name": "Small",
+                    "slug": "small",
+                    "size": "14px"
+                },
+                {
+                    "name": "Medium",
+                    "slug": "medium",
+                    "size": "16px"
+                },
+                {
+                    "name": "Medium Large",
+                    "slug": "medium-large",
+                    "size": "20px"
+                },
+                {
+                    "name": "Large",
+                    "slug": "large",
+                    "size": "36px"
+                }
+            ],
+            "fontFamilies": [
+                {
+                    "slug": "sans-serif",
+                    "name": "Sans-serif",
+                    "fontFamily": "sans-serif"
+                },
+                {
+                    "slug": "dancing-script",
+                    "name": "Dancing Script",
+                    "fontFamily": "Dancing Script"
+                }
+            ]
+        },
+        "blocks": {
+            "core/paragraph": {
+                "color": {},
+                "custom": {},
+                "layout": {},
+                "spacing": {},
+                "typography": {}
+            },
+            "core/heading": {},
+            "core/group": {}
+        }
+    },
+    "styles": {
+        "color": {
+            "text": "var(--wp--preset--color--homey-black)"
+        },
+        "elements": {
+            "button": {
+                "color": {
+                    "background": "var(--wp--preset--color--homey-black)",
+                    "text": "#ffffff"
+                },
+                "spacing": {
+                    "padding": {
+                        "bottom": "8px",
+                        "top": "8px",
+                        "left": "12px",
+                        "right": "12px"
+                    }
+                },
+                "border": {
+                    "radius": "0px"
+                }
+            },
+            "link": {
+                "color": {
+                    "text": "var(--wp--preset--color--homey-red)"
+                },
+                "typography": {
+                    "textDecoration": "none"
+                }
+            }
+        },
+        "spacing": {
+            "margin": {
+                "top": "0px",
+                "right": "0px",
+                "left": "0px",
+                "bottom": "0px"
+            },
+            "padding": {
+                "top": "0px",
+                "right": "0px",
+                "left": "0px",
+                "bottom": "0px"
+            }
+        },
+        "blocks": {
+            "core/group": {
+                "spacing": {
+                    "padding": {
+                        "left": "10px",
+                        "right": "10px"
+                    }
+                }
+            }
+        },
+        "typography": {
+            "fontFamily": "var(--wp--preset--font-family--sans-serif)"
+        }
+    }
+}

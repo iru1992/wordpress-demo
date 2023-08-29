@@ -1,0 +1,25 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "create-block/homey-line-block",
+	"version": "0.1.0",
+	"title": "Homey Line Block",
+	"category": "widgets",
+	"description": "Adds a styled line to your pages or posts.",
+	"example": {},
+	"supports": {
+		"html": false
+	},
+	"textdomain": "homey",
+	"editorScript": "file:./index.js",
+	"attributes": {
+		"color": {
+			"type": "string",
+			"default": "#D58A51"
+		},
+		"width": {
+			"type": "integer",
+			"default": 3
+		}
+	}
+}

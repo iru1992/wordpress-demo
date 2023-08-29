@@ -1,0 +1,21 @@
+/* 
+Theme Name: Homey
+Author: Koen Vleghels
+Description: Homey Theme, used for a stylish and modern online furniture store.
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: homey
+*/
+
+input, textarea, select {
+    padding: 8px 12px!important;
+    border: 1px solid;
+}
+
+@media screen and (width < 760px) {
+
+    .homey-mobile-stack {
+        flex-wrap: wrap!important;
+    }
+
+}
